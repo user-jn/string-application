@@ -30,7 +30,31 @@ public class VariableApp {
         char middleInitial = 'A';
         System.out.println("My middle initial is " + middleInitial);
 
+        //Question 4: Whether I have pets
+        boolean hasPets = true;
+        System.out.println("Do I have pets? " + hasPets);
 
+        //Question 5: Nice message
+        String message = "Never give up";
+        System.out.println(message);
+
+        //Step 2
+
+        //Number of days in a week
+        int daysInWeek = 7;
+        System.out.println("There are " + daysInWeek + "days in a week");
+
+        //Price of coffee
+        double coffeePrice = 4.99;
+        System.out.println("A cup of coffee costs $" + coffeePrice + ".");
+
+        // Favorite letter
+        char favoriteLetter = 'J';
+        System.out.println("My favorite letter is " + favoriteLetter + ".");
+
+        // Whether it is raining
+        boolean isRaining = false;
+        System.out.println("Is it raining? " + isRaining);
 
 
 
