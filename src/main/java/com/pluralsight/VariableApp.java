@@ -2,7 +2,7 @@ package com.pluralsight;
 
 public class VariableApp {
 
-}
+
     public static void main(String[] args) {
 
         // Question 1:
@@ -13,7 +13,6 @@ public class VariableApp {
         // then use System.out.println() to display results
         // Example:
         // System.out.println("The answer is " + answer);
-
 
 
         // Step 1
@@ -57,5 +56,5 @@ public class VariableApp {
         System.out.println("Is it raining? " + isRaining);
 
 
-
+    }
 }
