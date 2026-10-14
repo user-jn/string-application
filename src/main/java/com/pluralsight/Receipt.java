@@ -10,8 +10,7 @@ public class Receipt {
 
         double totalPrice = itemPrice * quantity;
 
-        // Print the quantity, item name, and total price formatted to 2 decimal places
-        System.out.printf("You bought %d %s for $%.2f%n", quantity, itemName, totalPrice);
+        System.out.println("You bought " + quantity + " " + itemName + " for $" + totalPrice);
 
     }
 }
