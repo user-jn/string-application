@@ -2,15 +2,14 @@ package com.pluralsight;
 
 public class Receipt {
     public static void main(String[] args) {
-        System.out.println();
+        //1. Create variables for an item name (String) and item price (double)
+        //2. Create a quantity variable (int)
+        //3. Build and print: EX. "You bought 3 apples for $7.10"
 
-        String itemName = "apples";
-        double itemPrice = 2.0;
-        int quantity = 3;
+        String itemName = "Abc cookies";
+        double itemPrice = 4.99;
+        int numItems = 3;
 
-        double totalPrice = itemPrice * quantity;
-
-        System.out.println("You bought " + quantity + " " + itemName + " for $" + totalPrice);
 
     }
 }
