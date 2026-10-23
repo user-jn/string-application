@@ -18,7 +18,7 @@ public class VariableApp {
         int yearStartedClass = 2026;
         char middleInitial = 'A';
         boolean hasPets = true;
-        String niceMessage = "Sometimes you don't realize" + "how much someone means to you until" + "you look back and see how much brighter they made the simplist days";
+        String niceMessage = "Sometimes you don't realize " + "how much someone means to you until " + "you look back and see how much brighter they made the simplist days";
 
         //display
         System.out.println("My favorite color is " + favColor + ""
@@ -34,20 +34,26 @@ public class VariableApp {
         }
         System.out.println(niceMessage + ".");
 
+        //step 2
+        int numDaysInWeek = 7;
+        double priceCoffee = 5.99;
+        char favLetter = 'A';
+        boolean isRaining = false;
 
+        //display
+        System.out.println("\nThere are " + numDaysInWeek + " days in a week."
+                + "\nThe price of coffee is $" + priceCoffee + "."
+                + "\nMy favorite letter is " + favLetter + ".");
 
+        //display boolean
 
+        if (isRaining) {
+            System.out.println("It's raining today.");
+        }
+        else {
+            System.out.print("It's not raining today.");
+        }
 
     }
-
-
-
-
-
-
-
-
-
-
-    }
+}
 
